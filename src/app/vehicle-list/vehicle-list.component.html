@@ -1,0 +1,41 @@
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+
+<body class="home">
+    <div class="container-fluid display-table">
+        <div class="row display-table-row">
+            <div class="col-md-5 col-sm-1 hidden-xs display-table-cell v-align box" id="navigation">
+                <!--<div class="navi">-->
+                  <table class="table table-bordered">
+                    <thead>
+                      <tr>
+                        <app-header [colHeaders]="vehicleListHeaders"></app-header>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr *ngFor="let item of vehicles; let count = index ">
+                        <td (click)=showDetails(item)><a href="#">{{count}}</a></td>
+                        <td>{{item.year}}</td>
+                        <td>{{item.make}}</td>
+                        <td>{{item.model}}</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+            <!--</div>-->
+            <div class="col-md-10 col-sm-11 display-table-cell v-align">
+                <div class="user-dashboard">
+                    <h1 *ngIf="showVehicle=='N'">Welcome !!</h1>
+                    <div class="row">
+                        <div class="col-md-5 col-sm-5 col-xs-12 gutter">
+                            <div class="sales" *ngIf="showVehicle=='Y'">
+                                <app-vehicle-details [vehicle]="vehicleRec"></app-vehicle-details>
+                            </div>
+                        </div>
+                        <div class="col-md-7 col-sm-7 col-xs-12 gutter">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>

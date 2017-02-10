@@ -1,0 +1,26 @@
+{
+	"vehicles":[
+	  {"year":2001,"make":"ACURA","model":"CL"},
+	  {"year":2001,"make":"AMERICAN IRONHORSE","model":"CLASSIC"},
+	  {"year":2002,"make":"APRILIA","model":"ATLANTIC 500"},
+	  {"year":2002,"make":"BMW","model":"R1150RT"},
+	  {"year":2003,"make":"BMW","model":"R1200C"},
+	  {"year":2003,"make":"CHEVROLET","model":"B7"},
+	  {"year":2003,"make":"CHEVROLET","model":"BLAZER"},
+	  {"year":2004,"make":"KIA","model":"SEDONA"},
+	  {"year":2004,"make":"KIA","model":"SORENTO"},
+	  {"year":2005,"make":"BENTLEY","model":"CONTINENTAL"},
+	  {"year":2005,"make":"BIG DOG","model":"CHOPPER DT"},
+	  {"year":2005,"make":"KENWORTH","model":"T600A"},
+	  {"year":2007,"make":"NISSAN","model":"QUEST"},
+	  {"year":2007,"make":"NISSAN","model":"SENTRA"},
+	  {"year":2009,"make":"MERCEDES-BENZ","model":"S63 AMG"},
+	  {"year":2009,"make":"MERCEDES-BENZ","model":"S65 AMG"},
+	  {"year":2010,"make":"YAMAHA","model":"PZ50VT VENTURE LITE"},
+	  {"year":2010,"make":"YAMAHA","model":"RS90GT VECTOR GT"},
+	  {"year":2015,"make":"SKI-DOO","model":"EXPEDITION SE 4-TEC 1200"},
+	  {"year":2015,"make":"TESLA","model":"S"},
+	  {"year":2015,"make":"TOYOTA","model":"CAMRY"},
+	  {"year":2015,"make":"TOYOTA","model":"LAND CRUISER"}
+	]
+}
